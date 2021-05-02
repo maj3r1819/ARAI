@@ -1,0 +1,172 @@
+        body{
+padding: 0px;
+margin: 0px;
+color: white;
+background-color: black;
+font-family:Ubuntu, Times, serif;
+}
+.container{
+/*border: solid 2px red;*/
+position: relative;
+width: 100%;
+height: 100%;
+top:-8px;
+left:0px;
+right: 0px;
+z-index: 0;
+}
+.image{
+position: absolute;
+background: url("../img/bg1.jpg");
+background-repeat : no-repeat;
+background-size: 100% 100%;
+z-index: -1;
+
+
+
+}
+.navigation{
+display: flex;
+margin: 0px;
+padding : 0px;
+list-style: none;
+position: relative;
+right:0%;
+z-index: 1;
+background-color: #8b7676;
+}
+
+.box li{
+padding: 20px;
+font-size: 1.3em;
+}
+.box a{
+text-decoration: none;
+color: white;
+}
+a:hover{
+color:black;
+}
+.intro
+{
+margin: 5.7% 200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+z-index: 1;
+height: 530px;
+justify-content: center;
+}
+.intro h1{
+    font-size: 3.3rem;
+
+}
+.intro p{
+font-size: 25px;
+
+}
+.main{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+position: relative;
+/*border: 2px solid red;*/
+top: 10px;
+height: 100%;
+justify-content: center;
+background: url("../img/bg.jpg");
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+
+
+}
+.main .box{
+position: relative;
+margin: 10px;
+padding: 40px;
+display: flex;
+flex-direction: column;
+/*border: 2px solid red;*/
+align-items: center;
+/*background-color: #00ff360a;*/
+
+
+}
+.main .box .landscape_image{
+position: relative;
+margin: 0px;
+padding: 15px;
+/*border: 2px solid red;*/
+height: 300px;
+width: 550px;
+background-size: 100% 100%;
+
+
+
+
+
+}
+.main .box .textfield{
+position: relative;
+top:15px;
+/*border: 2px solid red;*/
+width: 620px;
+height: 250px;
+font-size:20px;
+
+
+
+}
+#img1{
+background: url("../img/images/1.jpg");
+background-size: cover;
+background-size: 100%;
+box-shadow: 10px 10px 10px #518cd2;
+
+
+
+}
+#img2{
+background: url("../img/images/2.jpg");
+background-size: cover;
+box-shadow: 10px 10px 10px #b5c0c6
+}
+#img3{
+background: url("../img/images/3.jpg");
+
+background-size: 100% 100%;
+box-shadow: 10px 10px 10px #949caf
+
+}
+#img4{
+background: url("../img/images/4.jpg");
+
+background-size: 100% 100%;
+box-shadow: 10px 10px 10px #bc8f6f
+
+}
+#img5{
+background: url("../img/images/5.jpg");
+
+background-size: 100% 100%;
+box-shadow: 10px 10px 10px #ad8d7e
+}
+#img6{
+background: url("../img/images/6.jpg");
+
+background-size: 100% 100%;
+box-shadow: 10px 10px 10px #b6c1c8
+}
+#end p{
+font-size: 20px;
+
+}
+#end a{
+color: blue;
+}
+#end a:hover{
+color: tomato;`
+}
